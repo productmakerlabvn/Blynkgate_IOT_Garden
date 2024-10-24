@@ -1,14 +1,14 @@
 /*
   Tiêu đề:  Demo Nhiệt độ và Độ ẩm
-  Mô tả: Đọc giá trị từ cảm biến DHT11/22 và gửi lên Blynk mỗi 5 giây.
+  Mô tả: Đọc giá trị từ cảm biến DHT11 và gửi lên Blynk mỗi 5 giây.
               - Virtual Pin V1 (cho nhiệt độ)
               - Virtual Pin V2 (cho độ ẩm)
 */
 
 // Cấu hình Blynk
-#define BLYNK_TEMPLATE_ID "TMPL6Gyrmi-8_"
-#define BLYNK_TEMPLATE_NAME "blynk gate"
-#define BLYNK_AUTH_TOKEN "fJltZnwukHtoRz0IctDps7mbZgAod49K"
+#define BLYNK_TEMPLATE_ID "GET_FROM_BLYNK_CLOUND"
+#define BLYNK_TEMPLATE_NAME "GET_FROM_BLYNK_CLOUND"
+#define BLYNK_AUTH_TOKEN "GET_FROM_BLYNK_CLOUND"
 
 // Định nghĩa Virtual Pin cho nhiệt độ và độ ẩm
 #define VIRTUAL_PIN_TEMP 1 // Virtual Pin V1 dành cho nhiệt độ
@@ -21,8 +21,8 @@
 #define DHTPIN A1 // Chân dữ liệu từ cảm biến DHT
 MKL_DHT dht(DHTPIN, DHT11);
 
-char ssid[] = "Hshop.vn";
-char pass[] = "";
+char ssid[] = "Hshop.vn"; 
+char pass[] = ""; // Để trống nếu wifi không có mật khẩu
 
 // Biến để sử dụng với millis()
 // Variables for millis timing
