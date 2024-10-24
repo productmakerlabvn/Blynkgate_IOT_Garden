@@ -19,11 +19,10 @@ Trong dự án này, chúng ta sẽ:
 
 ## Yêu cầu phần cứng
 
-- **Arduino Uno**
-- **Module DHT11 (MKE-S14_MakerLab)**
-- **Module Wi-Fi BlynkGate**
-- Dây nối
-- Breadboard
+- **Module BlynkGate**
+- **Vietduino Uno**
+- **Mạch MakerEdu Shield for Vietduino**
+- **Cảm biến độ ẩm nhiệt độ MKE-S14 DHT11**
 
 ## Yêu cầu phần mềm
 
