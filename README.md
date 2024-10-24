@@ -23,11 +23,13 @@
 
 ## Phần cứng yêu cầu:
 - **Module BlynkGate**
-- **Arduino Uno**
-- **Cảm biến nhiệt độ và độ ẩm không khí**
-- **Cảm biến độ ẩm đất**
-- **Cảm biến ánh sáng**
-- **Máy bơm nước và relay**
-- **Màn hình LCD1602**
+- **Vietduino Uno**
+- **Mạch MakerEdu Shield for Vietduino**
+- **Cảm biến độ ẩm nhiệt độ MKE-S14 DHT11**
+- **Cảm biến độ ẩm đất MKE-S13**
+- **Cảm biến ánh sáng quang trở MKE-S02**
+- **Mạch đóng relay MKE-M05**
+- **Máy bơm nước**
+- **Mạch hiển thị MKE-M07 LCD1602**
 
 Dự án này thích hợp cho các hệ thống nông nghiệp thông minh, giúp tự động hóa và giám sát môi trường vườn từ xa dễ dàng hơn, đặc biệt cho việc duy trì nhiệt độ, độ ẩm không khí, độ ẩm đất và điều kiện ánh sáng lý tưởng cho cây trồng.
