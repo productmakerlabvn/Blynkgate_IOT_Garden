@@ -65,9 +65,9 @@ Trong dự án này, chúng ta sẽ:
 */
 
 // Cấu hình Blynk
-#define BLYNK_TEMPLATE_ID "TMPL6Gyrmi-8_"
-#define BLYNK_TEMPLATE_NAME "blynk gate"
-#define BLYNK_AUTH_TOKEN "fJltZnwukHtoRz0IctDps7mbZgAod49K"
+#define BLYNK_TEMPLATE_ID "GET_FROM_BLYNK_CLOUND"
+#define BLYNK_TEMPLATE_NAME "GET_FROM_BLYNK_CLOUND"
+#define BLYNK_AUTH_TOKEN "GET_FROM_BLYNK_CLOUND"
 
 // Định nghĩa Virtual Pin cho nhiệt độ và độ ẩm
 #define VIRTUAL_PIN_TEMP 1 // Virtual Pin V1 dành cho nhiệt độ
@@ -81,7 +81,7 @@ Trong dự án này, chúng ta sẽ:
 MKL_DHT dht(DHTPIN, DHT11);
 
 char ssid[] = "Hshop.vn";
-char pass[] = "";
+char pass[] = ""; // Để trống nếu wifi không có mật khẩu
 
 // Biến để sử dụng với millis()
 // Variables for millis timing
