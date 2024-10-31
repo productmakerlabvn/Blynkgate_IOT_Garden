@@ -18,18 +18,32 @@ bài học thứ 2 của loạt bài IOT Farm, bạn sẽ học cách mở rộn
 
 ## Sơ đồ đấu nối
 
-| **Arduino UNO**      | **DHT11**  |
-|--------------|---------------|
-| VCC          | 5V            |
-| GND          | GND           |
-| A1           | SIG            |
-
 | **Arduino UNO**   | **BlynkGate**  |
 |--------------|----------------|
-| VCC          | 5V             |
+| 5V          | 5V             |
 | GND          | GND            |
 | A4           | SDA            |
 | A5           | SCL            |
+
+| **Arduino UNO**      | **DHT11**  |
+|--------------|---------------|
+| 5V          | 5V            |
+| GND          | GND           |
+| A1           | SIG            |
+
+
+| **Arduino UNO**   | **Độ ẩm đất**  |
+|--------------|----------------|
+| 5V          | 5V             |
+| GND          | GND            |
+| A2           | SIG            |
+
+| **Arduino UNO**   | **Ánh sáng**  |
+|--------------|----------------|
+| VCC          | 5V             |
+| GND          | GND            |
+| A3           | SIG            |
+
 
 ## Cấu hình phần mềm
 **Blynk App**:
