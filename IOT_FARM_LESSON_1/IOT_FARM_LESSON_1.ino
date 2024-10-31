@@ -2,9 +2,9 @@
   Tiêu đề:  Demo Nhiệt độ và Độ ẩm
   Mô tả: Đọc giá trị từ cảm biến DHT11 và gửi lên Blynk mỗi 5 giây.
               - Virtual Pin V1 (cho nhiệt độ)
-              - Virtual Pin V2 (cho độ ẩm)
+              - Virtual Pin V2 (cho độ ẩm).
 */
-
+ 
 // Cấu hình Blynk
 #define BLYNK_TEMPLATE_ID "GET_FROM_BLYNK_CLOUND"
 #define BLYNK_TEMPLATE_NAME "GET_FROM_BLYNK_CLOUND"
